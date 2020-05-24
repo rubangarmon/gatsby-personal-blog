@@ -1,6 +1,14 @@
 backend:
-  name: github
-  repo: rubangarmon/gatsby-personal-blog
+  name: test-repo
+  # name: github
+  # repo: rubangarmon/gatsby-personal-blog
+#   name: git-gateway
+# local_backend: true
+# local_backend:
+#   url: http://localhost:8081/api/v1  
+  # name: proxy
+  # proxy_url: http://localhost:8081/api/v1
+  # branch: master # optional, defaults to master
 
 media_folder: static/assets
 public_folder: assets
@@ -11,8 +19,5 @@ collections:
     folder: content/blog
     create: true
     fields:
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: date }
-      - { name: title, label: Title }
-      - { name: description, label: Description }
-      - { name: body, label: Body, widget: markdown }
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}

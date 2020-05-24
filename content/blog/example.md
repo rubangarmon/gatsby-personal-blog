@@ -6,6 +6,11 @@ description: "A post showing MDX in action"
 
 This is a post showing MDX in action. This starter now comes with MDX out-of-the-box!
 
+![Flower](/assets/flower.jpg)
+
+
+![Flower](/assets/kitty.jpg)
+
 ```js
 // you can write JSX in your Markdown!
 <button>test</button>
